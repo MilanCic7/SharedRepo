@@ -4,6 +4,7 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	fbAdder	:	FB_CalcAdder;
+	nVar	:	int;
 END_VAR
 ]]></Declaration>
     <Implementation>
