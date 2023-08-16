@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="MAIN" Id="{39a59f10-14b9-4d6b-a642-f40e6fd55c02}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	fbAdder	:	FB_CalcAdder;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[fbAdder(firstVar:= 5, secondVar:= 7, result=> );]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="2" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
